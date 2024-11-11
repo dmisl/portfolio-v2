@@ -1,3 +1,4 @@
 # portfolio-v2
 
-Figma added
+- Figma added
+- Hero section top and left part
