@@ -2,3 +2,4 @@
 
 - Figma added
 - Hero section top and left part
+- hero almost done
