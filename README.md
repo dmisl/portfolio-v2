@@ -9,9 +9,11 @@
 [Realization]
 - Menu ✅
 - Links ✅
+- Hero section left part
 
 TODO:
 
 - [ ] TYPING TEXT IN HERO SECTION
 - [ ] CHANGING CURRENT MENU ELEMENT ON SCROLL
 - [ ] LINK LINKS TO THE LINKS SECTION XD
+- [ ] LINK BUTTONS

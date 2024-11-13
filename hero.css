@@ -1,0 +1,39 @@
+/* HERO SECTION */
+.hero
+{
+    display: flex;
+    padding-top: 200px;
+}
+.hero .greet
+{
+    font-size: 23px;
+    font-weight: 400;
+    color: var(--white);
+}
+.hero .name
+{
+    font-size: 65px;
+    font-weight: 400;
+}
+.hero .name span
+{
+    letter-spacing: 10px;
+}
+.hero .typing
+{
+    font-size: 34px;
+    font-weight: 500;
+    color: var(--pink);
+}
+.hero .comment
+{
+    margin-top: 27px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--grey);
+}
+.hero .contact
+{
+    margin-top: 34px;
+}

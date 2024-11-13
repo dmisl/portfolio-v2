@@ -32,3 +32,18 @@ body
     width: 1170px;
     margin: 0 auto;
 }
+/* CONTACT BUTTON */
+.contact
+{
+    width: 200px;
+    height: 46px;
+    font-size: 19px;
+    border: 1px solid var(--pink);
+    background-color: var(--bg-color);
+    color: var(--white);
+    cursor: pointer;
+}
+.contact:hover
+{
+    background-color: #c778dd34;
+}
