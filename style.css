@@ -1,0 +1,34 @@
+/* IMPORTING FIRA CODE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+/* VARIABLES */
+:root
+{
+    --bg-color: #282C33;
+    --white: #FFFFFF;
+    --grey: #ABB2BF;
+    --pink: #C778DD;
+}
+/* FOR ALL ELEMENTS */
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Code', monospace;
+    color: white;
+}
+h1,h2,h3,h4,h5,h6,p
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    /* background-color: var(--bg-color); */
+    background-color: var(--bg-color);
+}
+/* OUR MAIN CONTAINER */
+.container
+{
+    width: 1170px;
+    margin: 0 auto;
+}

@@ -1,0 +1,53 @@
+/* MENU */
+.menu
+{
+    width: 100%;
+    position: fixed;
+    padding: 15px 0;
+    background-color: var(--bg-color);
+}
+.menu .container
+{
+    display: flex;
+    justify-content: space-between;
+}
+/* LEFT PART */
+.menu .logo
+{
+    display: flex;
+    gap: 11px;
+}
+.menu .logo h1
+{
+    font-size: 32px;
+}
+.menu .logo h1 span
+{
+    letter-spacing: 3px;
+}
+/* RIGHT PART */
+.menu .elements
+{
+    display: flex;
+    align-items: center;
+    gap: 54px;
+    font-size: 25px;
+}
+.menu .elements a
+{
+    text-decoration: none;
+    color: var(--grey)
+}
+.menu .elements a:hover
+{
+    color: var(--white)
+}
+.menu .elements a::before
+{
+    content: "#";
+    color: var(--pink)
+}
+.menu .elements a.selected
+{
+    color: var(--white)
+}
