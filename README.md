@@ -10,6 +10,7 @@
 - Menu ✅
 - Links ✅
 - Hero section left part
+- Hero section right part
 
 TODO:
 
