@@ -25,6 +25,8 @@ body
 {
     /* background-color: var(--bg-color); */
     background-color: var(--bg-color);
+    width: 100%;
+    overflow-x: hidden;
 }
 /* OUR MAIN CONTAINER */
 .container

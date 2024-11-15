@@ -5,6 +5,7 @@
     position: fixed;
     padding: 15px 0;
     background-color: var(--bg-color);
+    z-index: 100;
 }
 .menu .container
 {

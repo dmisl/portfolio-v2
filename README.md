@@ -5,12 +5,14 @@
 - Hero section top and left part
 - Hero almost done
 - Hero section completed ✅
+- Quote
 
 [Realization]
 - Menu ✅
 - Links ✅
-- Hero section left part
-- Hero section right part
+- Hero section left part ✅
+- Hero section right part ✅
+- Quote ✅
 
 TODO:
 
