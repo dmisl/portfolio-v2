@@ -2,7 +2,7 @@
 .hero
 {
     display: flex;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 .hero .greet
 {
@@ -17,7 +17,11 @@
 }
 .hero .name span
 {
-    letter-spacing: 10px;
+    letter-spacing: 8px;
+}
+.hero .name span span
+{
+    letter-spacing: 3px;
 }
 .hero .typing
 {
@@ -36,4 +40,65 @@
 .hero .contact
 {
     margin-top: 34px;
+}
+.hero .left
+{
+    margin-top: 70px;
+}
+.hero .right
+{
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+.hero .right img
+{
+    position: relative;
+    right: -30px;
+    width: 600px;
+    z-index: 1;
+}
+.hero .right .bg-logo
+{
+    position: absolute;
+    top: 110px;
+    left: 15px;
+    z-index: 0;
+}
+.hero .right .dots
+{
+    position: absolute;
+    z-index: 2;
+    top: 340px;
+    right: 15px;
+}
+.hero .right .status
+{
+    position: relative;
+    right: 15px;
+    width: 545px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid var(--pink);
+}
+.hero .right .status div
+{
+    width: 23px;
+    height: 23px;
+    background-color: var(--pink);
+}
+.hero .right .status h4
+{
+    color: var(--grey);
+    font-size: 22px;
+    font-weight: 400;
+}
+.hero .right .status h4 span
+{
+    color: var(--white);   
 }
