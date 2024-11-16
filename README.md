@@ -6,6 +6,7 @@
 - Hero almost done
 - Hero section completed ✅
 - Quote
+- Projects section
 
 [Realization]
 - Menu ✅
