@@ -7,6 +7,9 @@
 - Hero section completed ✅
 - Quote
 - Projects section
+- Task Buddy preview image completed
+- English Time preview image completed
+- Dynamitowy preview added
 
 [Realization]
 - Menu ✅

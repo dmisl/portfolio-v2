@@ -1,0 +1,46 @@
+.projects
+{
+    position: relative;
+    padding-bottom: 200px;
+}
+.projects .title
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.projects .title h2
+{
+    color: var(--white);
+    font-weight: 600;
+    font-size: 36px;
+}
+.projects .title h2 span
+{
+    color: var(--pink);
+}
+.projects .line
+{
+    width: 645px;
+    height: 1px;
+    position: relative;
+    top: 2px;
+    background-color: var(--pink);
+    margin-left: 19px;
+}
+.projects .view
+{
+    display: flex;
+    justify-content: end;
+    flex-grow: 1;
+    font-size: 19px;
+    text-decoration: none;
+}
+.projects .view:hover
+{
+    text-decoration: underline;
+}
+.projects .view p
+{
+    display: inline;
+}
