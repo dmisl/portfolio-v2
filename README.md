@@ -10,6 +10,7 @@
 - Task Buddy preview image completed
 - English Time preview image completed
 - Dynamitowy preview added
+- Projects
 
 [Realization]
 - Menu ✅
