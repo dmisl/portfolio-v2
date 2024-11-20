@@ -54,6 +54,7 @@
 .projects .content .item
 {
     width: 380px;
+    height: auto;
     border: 1px solid var(--grey);
 }
 .projects .content .item img
