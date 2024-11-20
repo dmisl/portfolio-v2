@@ -44,3 +44,89 @@
 {
     display: inline;
 }
+.projects .content
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.projects .content .item
+{
+    width: 380px;
+    border: 1px solid var(--grey);
+}
+.projects .content .item img
+{
+    height: 225px;
+    width: 100%;
+    border-bottom: 1px solid var(--grey);
+}
+.projects .content .item .tech-stack
+{
+    display: flex;
+    padding: 8px 12px;
+    padding-bottom: 12px;
+    gap: 7px 12px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--grey);
+}
+.projects .content .item .tech-stack p
+{
+    color: var(--grey);
+    font-size: 20px;
+}
+.projects .content .item .content
+{
+    padding: 19px 0px 44px 18px;
+    flex-direction: column;
+    margin: 0 !important;
+}
+.projects .content .item .content .title
+{
+    font-size: 33px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: var(--white);
+}
+.projects .content .item .content .desc
+{
+    color: var(--grey);
+    font-size: 16.7px;
+}
+.projects .content .item .content .buttons
+{   
+    display: flex;
+    margin-top: 19px;
+    gap: 8.5px;
+    flex-wrap: wrap;
+}
+.projects .content .item .content .buttons div
+{
+    cursor: pointer;
+    padding: 8px 16px;
+}
+.projects .content .item .content .buttons div:hover
+{
+    background-color: #c778dd34;
+}
+.projects .content .item .content .buttons .live
+{
+    border: 1px solid var(--pink);
+}
+.projects .content .item .content .buttons .live::before
+{
+    content: "Live <~>";
+    font-size: 16px;
+    color: var(--white);
+}
+.projects .content .item .content .buttons .cached
+{
+    border: 1px solid var(--grey);
+}
+.projects .content .item .content .buttons .cached::before
+{
+    content: "Cached >=";
+    font-size: 16px;
+    color: var(--grey);
+}
