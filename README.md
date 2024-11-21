@@ -11,6 +11,7 @@
 - English Time preview image completed
 - Dynamitowy preview added
 - Projects
+- Skills
 
 [Realization]
 - Menu ✅
