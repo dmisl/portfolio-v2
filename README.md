@@ -18,6 +18,7 @@
 - Hero section left part ✅
 - Hero section right part ✅
 - Quote ✅
+- Projects ✅ 
 
 TODO:
 
@@ -26,3 +27,4 @@ TODO:
 - [ ] LINK LINKS TO THE LINKS SECTION XD
 - [ ] LINK BUTTONS
 - [x] FIX PROJECT BLOCK TAKING FULL PARENT HEIGHT
+- [x] VIEW ALL LINK FIX

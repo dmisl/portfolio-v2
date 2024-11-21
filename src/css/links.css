@@ -8,6 +8,8 @@
     align-items: center;
     gap: 14px;
     z-index: 150;
+    background-color: var(--bg-color);
+    border-radius: 20px;
 }
 .links .line
 {

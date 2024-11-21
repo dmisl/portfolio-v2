@@ -1,6 +1,5 @@
 .projects
 {
-    position: relative;
     padding-bottom: 200px;
 }
 .projects .title
@@ -131,4 +130,21 @@
     content: "Cached >=";
     font-size: 16px;
     color: var(--grey);
+}
+/* DECORATIONS */
+.projects .dots
+{
+    position: absolute;
+    z-index: 0;
+    margin-top: 350px;
+    left: -45px;
+}
+.projects .decoration
+{
+    position: absolute;
+    right: -118px;
+    margin-top: 200px;
+    width: 236px;
+    height: 236px;
+    border: 1px solid var(--grey);
 }
