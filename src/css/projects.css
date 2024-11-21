@@ -50,12 +50,13 @@
     width: 100%;
     justify-content: space-between;
     margin-top: 50px;
+    align-items: flex-start;
 }
 .projects .content .item
 {
     width: 380px;
-    height: auto;
     border: 1px solid var(--grey);
+    align-self: flex-start;
 }
 .projects .content .item img
 {
