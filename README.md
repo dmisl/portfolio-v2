@@ -19,7 +19,8 @@
 - Hero section left part ✅
 - Hero section right part ✅
 - Quote ✅
-- Projects ✅ 
+- Projects ✅
+- Skills ✅
 
 TODO:
 
@@ -29,3 +30,4 @@ TODO:
 - [ ] LINK BUTTONS
 - [x] FIX PROJECT BLOCK TAKING FULL PARENT HEIGHT
 - [x] VIEW ALL LINK FIX
+- [ ] REMOVE SCROLLING SCRIPT
