@@ -13,6 +13,7 @@
 - Projects
 - Skills
 - About me
+- Contacts
 
 [Realization]
 - Menu ✅
