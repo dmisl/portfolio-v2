@@ -84,7 +84,7 @@
 
                 <h3 class="greet">Hi all. I am</h3>
                 <h1 class="name"><span>Dm<span>yt</span></span>ro Slutyi</h1>
-                <h2 class="typing">> Back-end developer</h2>
+                <h2 class="typing">> </h2>
 
                 <p class="comment">// crafts responsive websites <br>// where technologies meet creativity</p>
 
@@ -602,9 +602,41 @@
 <script defer>
     let typing = document.querySelector('.typing')
     console.log(typing)
-    console.log(TypeIt)
-    // new TypeIt('#myID', {...});
-    // new TypeIt('.my-class', {...});
-    // new TypeIt(document.querySelector('h2'), {...});
-    // new TypeIt('[data-attribute="typeable"]', {...});
+    console.log('-end Developer'.length)
+    new TypeIt(".typing", {
+        speed: 100,
+        deleteSpeed: 100,
+        waitUntilVisible: true,
+    })
+    .type(' Full-Stack Developer')
+    .exec(async () => {
+        await new Promise((resolve, reject) => {
+        setTimeout(() => {
+            return resolve();
+        }, 4000);
+        });
+    })
+    .delete(20)
+    .type('Back-end Developer')
+    .exec(async () => {
+        await new Promise((resolve, reject) => {
+        setTimeout(() => {
+            return resolve();
+        }, 4000);
+        });
+    })
+    .move(-14)
+    .delete(4)
+    .type('Front')
+    .move(null, { to: "END" })
+    // .type('Front-end Developer')
+    .exec(async () => {
+        await new Promise((resolve, reject) => {
+        setTimeout(() => {
+            return resolve();
+        }, 4000);
+        });
+    })
+    // .delete(1)
+    .go();
 </script>
