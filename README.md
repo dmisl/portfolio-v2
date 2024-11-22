@@ -12,6 +12,7 @@
 - Dynamitowy preview added
 - Projects
 - Skills
+- About me
 
 [Realization]
 - Menu ✅
