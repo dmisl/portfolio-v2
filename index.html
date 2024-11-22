@@ -34,10 +34,10 @@
 
             <div class="elements">
 
-                <a class="selected" href="#">home</a>
-                <a href="#">works</a>
-                <a href="#">about-me</a>
-                <a href="#">contacts</a>
+                <a class="selected hero-menu" href="#">home</a>
+                <a class="projects-menu" href="#">works</a>
+                <a class="about-me-menu" href="#">about-me</a>
+                <a class="contacts-menu" href="#">contacts</a>
 
             </div>
 
@@ -601,6 +601,57 @@
 </html>
 <script defer>
 
+    // MENU SWITCHING
+
+    const sections = document.querySelectorAll('.section');
+
+    function getCenteredSection() {
+        const viewportCenter = window.innerHeight / 2;
+
+        let centeredSection = null;
+        let closestDistance = Infinity;
+
+        sections.forEach((section) => {
+            const rect = section.getBoundingClientRect();
+            const sectionCenter = rect.top + rect.height / 2;
+
+            const distanceToCenter = Math.abs(sectionCenter - viewportCenter);
+
+            if (distanceToCenter < closestDistance) {
+            closestDistance = distanceToCenter;
+            centeredSection = section;
+            }
+        });
+
+        return centeredSection;
+    }
+
+    // Log the centered section on scroll
+    window.addEventListener('scroll', () => {
+        const centeredSection = getCenteredSection();
+        console.log(centeredSection.classList[0])
+        console.log(centeredSection.classList[0] == 'projects')
+        let menuElements = document.querySelectorAll('.hero-menu, .projects-menu, .about-me-menu, .contacts.menu')
+        menuElements.forEach(element => {
+             element.classList.remove('selected')
+        });
+        if(centeredSection.classList[0] == 'hero')
+        {
+            document.querySelector('.hero-menu').classList.add('selected')
+        } else if(centeredSection.classList[0] == 'projects')
+        {
+            document.querySelector('.projects-menu').classList.add('selected')
+        } else if(centeredSection.classList[0] == 'skills' || centeredSection.classList[0] == 'about-me')
+        {
+            document.querySelector('.about-me-menu').classList.add('selected')
+        } else
+        {
+            document.querySelector('.contacts-menu').classList.add('selected')
+        }
+    });
+
+    // FIXED SCROLLING
+
     // const sections = document.querySelectorAll('.section');
     // let currentSection = 0;
     // let isThrottled = false;
@@ -637,6 +688,8 @@
 
     // // Attach scroll event listener
     // document.addEventListener('wheel', onScroll);
+
+    // TYPING
 
     let typing = document.querySelector('.typing')
     new TypeIt(".typing", {
