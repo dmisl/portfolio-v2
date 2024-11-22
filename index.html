@@ -607,6 +607,7 @@
         speed: 100,
         deleteSpeed: 100,
         waitUntilVisible: true,
+        loop: true,
     })
     .type(' Full-Stack Developer')
     .exec(async () => {
@@ -629,7 +630,6 @@
     .delete(4)
     .type('Front')
     .move(null, { to: "END" })
-    // .type('Front-end Developer')
     .exec(async () => {
         await new Promise((resolve, reject) => {
         setTimeout(() => {
@@ -637,6 +637,14 @@
         }, 4000);
         });
     })
-    // .delete(1)
+    .delete('Front-end Developer'.length)
+    .type('Tech Nerd')
+    .exec(async () => {
+        await new Promise((resolve, reject) => {
+        setTimeout(() => {
+            return resolve();
+        }, 4000);
+        });
+    })
     .go();
 </script>
