@@ -78,7 +78,7 @@
     <div class="container">
 
         <!-- HERO SECTION -->
-        <div class="hero">
+        <div class="hero section">
 
             <div class="left">
 
@@ -164,7 +164,7 @@
         </div>
 
         <!-- PROJECTS -->
-        <div class="projects">
+        <div class="projects section">
             <!-- DECOTATIONS -->
                 <!-- COOL DOTS -->
                 <svg class="dots" width="113" height="117" viewBox="0 0 113 117" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -272,7 +272,7 @@
         </div>
 
         <!-- SKILLS -->
-        <div class="skills">
+        <div class="skills section">
             <div class="title">
                 <h2><span>#</span>skills</h2>
                 <div class="line"></div>
@@ -423,7 +423,7 @@
         </div>
 
         <!-- ABOUT ME -->
-        <div class="about-me">
+        <div class="about-me section">
             <div class="decoration"></div>
             <div>
                 <div class="title">
@@ -513,7 +513,7 @@
         </div>
         
         <!-- CONTACTS -->
-        <div class="contacts">
+        <div class="contacts section">
             <div class="title">
                 <h2><span>#</span>contacts</h2>
                 <div class="line"></div>
@@ -600,9 +600,45 @@
 </body>
 </html>
 <script defer>
+
+    // const sections = document.querySelectorAll('.section');
+    // let currentSection = 0;
+    // let isThrottled = false;
+
+    // // Function to scroll to the calculated center of a section
+    // function scrollToSection(index) {
+    // currentSection = Math.max(0, Math.min(index, sections.length - 1));
+    // const section = sections[currentSection];
+    // const offset = section.offsetTop - (window.innerHeight - section.offsetHeight) / 2;
+    // window.scrollTo({ top: offset, behavior: 'smooth' });
+    // }
+
+    // // Throttled scroll event listener
+    // function onScroll(e) {
+    // if (isThrottled) return;
+
+    // // Prevent inner scrolling from triggering navigation
+    // const section = sections[currentSection];
+    // const atTop = window.scrollY <= section.offsetTop;
+    // const atBottom = window.scrollY >= section.offsetTop + section.offsetHeight - window.innerHeight;
+
+    // if (e.deltaY > 0 && atBottom) {
+    //     // Scroll down to the next section
+    //     scrollToSection(currentSection + 1);
+    // } else if (e.deltaY < 0 && atTop) {
+    //     // Scroll up to the previous section
+    //     scrollToSection(currentSection - 1);
+    // }
+
+    // // Throttle further scrolling until the animation completes
+    // isThrottled = true;
+    // setTimeout(() => (isThrottled = false), 800);
+    // }
+
+    // // Attach scroll event listener
+    // document.addEventListener('wheel', onScroll);
+
     let typing = document.querySelector('.typing')
-    console.log(typing)
-    console.log('-end Developer'.length)
     new TypeIt(".typing", {
         speed: 100,
         deleteSpeed: 100,
@@ -638,6 +674,15 @@
         });
     })
     .delete('Front-end Developer'.length)
+    .type('Problem Solver')
+    .exec(async () => {
+        await new Promise((resolve, reject) => {
+        setTimeout(() => {
+            return resolve();
+        }, 4000);
+        });
+    })
+    .delete('Problem Solver'.length)
     .type('Tech Nerd')
     .exec(async () => {
         await new Promise((resolve, reject) => {
