@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dmisl | Portfolio</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/menu.css">
     <link rel="stylesheet" href="src/css/links.css">
@@ -14,6 +15,8 @@
     <link rel="stylesheet" href="src/css/about-me.css">
     <link rel="stylesheet" href="src/css/contacts.css">
     <link rel="stylesheet" href="src/css/footer.css">
+    <!-- TYPEIT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/8.8.7/index.umd.min.js" integrity="sha512-w9+WtnRcS5TEPBd/CalFufJcL86KNh81FYMLkH9jbW46+XnKmdciHk+qhueq+thFd11nt2cV6JSX+nvfFLylgw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
 
@@ -596,9 +599,12 @@
     </footer>
 </body>
 </html>
-<script>
-    window.scrollTo({
-        top: 10000,
-        // behavior: 'smooth'
-    })
+<script defer>
+    let typing = document.querySelector('.typing')
+    console.log(typing)
+    console.log(TypeIt)
+    // new TypeIt('#myID', {...});
+    // new TypeIt('.my-class', {...});
+    // new TypeIt(document.querySelector('h2'), {...});
+    // new TypeIt('[data-attribute="typeable"]', {...});
 </script>
