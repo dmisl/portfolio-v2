@@ -66,13 +66,25 @@
     display: flex;
     align-items: center;
     padding-top: 9px;
-}
-.contacts .content .contact-box .item-parent a
-{
     text-decoration: none;
+}
+.contacts .content .contact-box .item-parent p
+{
     color: var(--grey);
     font-size: 16px;
     margin-left: 6px;
+}
+.contacts .content .contact-box .item-parent path
+{
+    fill: var(--grey);
+}
+.contacts .content .contact-box .item-parent:hover p
+{
+    color: var(--white);
+}
+.contacts .content .contact-box .item-parent:hover path
+{
+    fill: var(--white);
 }
 .contacts .decoration
 {
