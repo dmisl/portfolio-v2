@@ -1,5 +1,11 @@
 # portfolio-v2
 
+[Tech Stack]
+- HTML
+- CSS
+- JavaScript
+- TypeIT
+
 [Design]
 - Figma added
 - Hero section top and left part
