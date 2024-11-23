@@ -30,3 +30,19 @@
 {
     fill: var(--white);
 }
+@media (max-width: 1250px)
+{
+    .links
+    {
+        left: 25px;
+    }
+    .links svg
+    {
+        width: 30px;
+        height: 30px;
+    }
+    .links .line
+    {
+        height: 200px;
+    }
+}
