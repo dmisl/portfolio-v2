@@ -66,3 +66,12 @@
     right: -30px;
     margin-top: 20px;
 }
+@media (max-width: 1250px)
+{
+    .quote .decoration
+    {
+        width: 110px;
+        height: 110px;
+        right: -55px;
+    }
+}
