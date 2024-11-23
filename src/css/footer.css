@@ -42,3 +42,12 @@ footer .copyright
     font-weight: 300;
     margin-top: 40px;
 }
+footer .copyright a
+{
+    color: var(--white);
+    text-decoration: none;
+}
+footer .copyright a:hover
+{
+    text-decoration: underline;
+}
