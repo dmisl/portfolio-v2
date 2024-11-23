@@ -58,4 +58,16 @@ body
         width: 1000px;
         margin: 0 auto;
     }
+    .contact
+    {
+        width: 170px;
+        height: 42px;
+    }
+    .contact::first-letter {
+        text-transform: uppercase;
+    }
+    .contact:hover
+    {
+        background-color: #c778dd34;
+    }
 }

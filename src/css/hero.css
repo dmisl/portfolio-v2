@@ -102,3 +102,114 @@
 {
     color: var(--white);   
 }
+/* SMALL LAPTOPS */
+@media (max-width: 1250px)
+{
+    .hero
+    {
+        display: flex;
+        padding-top: 120px;
+    }
+    .hero .greet
+    {
+        font-size: 19px;
+        font-weight: 400;
+        color: var(--white);
+    }
+    .hero .name
+    {
+        font-size: 56px;
+        font-weight: 400;
+    }
+    .hero .name span
+    {
+        letter-spacing: 8px;
+    }
+    .hero .name span span
+    {
+        letter-spacing: 3px;
+    }
+    .hero .typing
+    {
+        font-size: 30px;
+        font-weight: 500;
+        color: var(--pink);
+    }
+    .hero .comment
+    {
+        margin-top: 27px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: var(--grey);
+    }
+    .hero .contact
+    {
+        margin-top: 34px;
+    }
+    .hero .left
+    {
+        margin-top: 53px;
+    }
+    .hero .right
+    {
+        flex-grow: 1;
+        position: relative;
+        display: flex;
+        align-items: end;
+        flex-direction: column;
+    }
+    .hero .right img
+    {
+        position: relative;
+        right: -30px;
+        width: 494px;
+        z-index: 1;
+    }
+    .hero .right .bg-logo
+    {
+        position: absolute;
+        width: 170px;
+        height: 170px;
+        top: 93px;
+        left: 35px;
+        z-index: 0;
+    }
+    .hero .right .dots
+    {
+        position: absolute;
+        z-index: 2;
+        top: 300px;
+        right: 7px;
+        width: 100px;
+        height: 100px;
+    }
+    .hero .right .status
+    {
+        position: relative;
+        right: 7px;
+        width: 448px;
+        height: 42px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        border: 1px solid var(--pink);
+    }
+    .hero .right .status div
+    {
+        width: 23px;
+        height: 23px;
+        background-color: var(--pink);
+    }
+    .hero .right .status h4
+    {
+        color: var(--grey);
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .hero .right .status h4 span
+    {
+        color: var(--white);   
+    }
+}
