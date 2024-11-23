@@ -68,10 +68,16 @@
 }
 @media (max-width: 1250px)
 {
+    .quote
+    {
+        margin-top: 90px;
+    }
     .quote .decoration
     {
-        width: 110px;
+        position: absolute;
+        width: 35px;
         height: 110px;
-        right: -55px;
+        right: 0px;
+        border-right: 0px;
     }
 }

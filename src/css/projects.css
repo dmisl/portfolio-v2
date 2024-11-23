@@ -149,3 +149,171 @@
     height: 236px;
     border: 1px solid var(--grey);
 }
+@media (max-width: 1250px)
+{
+    .projects
+    {
+        padding-bottom: 150px;
+        padding-top: 80px;
+    }
+    .projects .title
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .projects .title h2
+    {
+        color: var(--white);
+        font-weight: 600;
+        font-size: 36px;
+    }
+    .projects .title h2 span
+    {
+        color: var(--pink);
+    }
+    .projects .line
+    {
+        width: 500px;
+        height: 1px;
+        position: relative;
+        top: 2px;
+        background-color: var(--pink);
+        margin-left: 19px;
+    }
+    .projects .view
+    {
+        display: flex;
+        justify-content: end;
+        flex-grow: 1;
+        font-size: 19px;
+        text-decoration: none;
+    }
+    .projects .view:hover
+    {
+        text-decoration: underline;
+    }
+    .projects .view p
+    {
+        display: inline;
+    }
+    .projects .content
+    {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 50px;
+        align-items: flex-start;
+    }
+    .projects .content .item
+    {
+        width: 326px;
+        border: 1px solid var(--grey);
+        align-self: flex-start;
+    }
+    .projects .content .item img
+    {
+        height: 200px;
+        width: 100%;
+        border-bottom: 1px solid var(--grey);
+    }
+    .projects .content .item .tech-stack
+    {
+        display: flex;
+        padding: 8px 12px;
+        padding-bottom: 12px;
+        gap: 7px 12px;
+        flex-wrap: wrap;
+        border-bottom: 1px solid var(--grey);
+    }
+    .projects .content .item .tech-stack p
+    {
+        color: var(--grey);
+        font-size: 16px;
+    }
+    .projects .content .item .content
+    {
+        padding: 19px 0px 30px 18px;
+        flex-direction: column;
+        margin: 0 !important;
+    }
+    .projects .content .item .content .title
+    {
+        font-size: 31px;
+        font-weight: 500;
+        margin-bottom: 8px;
+        color: var(--white);
+    }
+    .projects .content .item .content .desc
+    {
+        color: var(--grey);
+        font-size: 16px;
+    }
+    .projects .content .item .content .buttons
+    {   
+        display: flex;
+        margin-top: 19px;
+        gap: 8.5px;
+        flex-wrap: wrap;
+    }
+    .projects .content .item .content .buttons div
+    {
+        cursor: pointer;
+        padding: 8px 16px;
+    }
+    .projects .content .item .content .buttons div:hover
+    {
+        background-color: #c778dd34;
+    }
+    .projects .content .item .content .buttons .live
+    {
+        border: 1px solid var(--pink);
+    }
+    .projects .content .item .content .buttons .live::before
+    {
+        content: "Live <~>";
+        font-size: 16px;
+        color: var(--white);
+    }
+    .projects .content .item .content .buttons .cached
+    {
+        border: 1px solid var(--grey);
+    }
+    .projects .content .item .content .buttons .cached::before
+    {
+        content: "Cached >=";
+        font-size: 16px;
+        color: var(--grey);
+    }
+    /* DECORATIONS */
+    .projects .dots
+    {
+        position: absolute;
+        z-index: 0;
+        margin-top: 350px;
+        left: -45px;
+    }
+    .projects .decoration
+    {
+        position: absolute;
+        right: -118px;
+        margin-top: 200px;
+        width: 236px;
+        height: 236px;
+        border: 1px solid var(--grey);
+    }
+}
+@media (max-width: 1250px)
+{
+    .projects
+    {
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+    .projects .decoration
+    {
+        right: 0;
+        width: 60px;
+        border-right: 0;
+    }
+}
