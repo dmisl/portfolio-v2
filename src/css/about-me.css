@@ -75,6 +75,12 @@
     height: 300px;
     border: 1px solid var(--grey);
 }
+@media (max-width: 1600px) {
+    .about-me .decoration
+    {
+        left: -250px;
+    }
+}
 .about-me .image .dots-top
 {
     position: absolute;
