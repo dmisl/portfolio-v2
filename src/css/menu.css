@@ -9,6 +9,7 @@
 }
 .menu .container
 {
+    height: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -51,4 +52,22 @@
 .menu .elements a.selected
 {
     color: var(--white)
+}
+@media (max-width: 1250px)
+{
+    .menu .logo svg
+    {
+        width: 40px !important;
+        height: 40px !important;
+        position: relative;
+        top: 2px;
+    }
+    .menu .logo h1
+    {
+        font-size: 32px;
+    }
+    .menu .elements
+    {
+        font-size: 24px;
+    }
 }
