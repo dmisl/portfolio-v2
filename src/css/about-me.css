@@ -75,12 +75,6 @@
     height: 300px;
     border: 1px solid var(--grey);
 }
-@media (max-width: 1600px) {
-    .about-me .decoration
-    {
-        left: -250px;
-    }
-}
 .about-me .image .dots-top
 {
     position: absolute;
@@ -100,4 +94,55 @@
     top: 360px;
     left: 360px;
     z-index: 20;
+}
+@media (max-width: 1600px) {
+    .about-me
+    {
+        padding-top: 90px;
+    }
+    .about-me .decoration
+    {
+        left: -250px;
+    }
+    .about-me .image
+    {
+        position: absolute;
+    }
+    .about-me .image img
+    {
+        width: 418px;
+        top: -25px;
+        left: 590px;
+    }
+    .about-me .image .underline
+    {
+        top: -31px;
+        left: 600px;
+    }
+    .about-me .image .dots-bottom
+    {
+        width: 110px;
+        height: 60px;
+        left: 800px;
+        top: 400px;
+    }
+    .about-me .image .dots-left
+    {
+        width: 92px;
+        height: 92px;
+        left: 970px;
+        top: 130px;
+        z-index: 20;
+    }
+    .about-me .image .dots-top
+    {
+        width: 92px;
+        height: 92px;
+        left: 620px;
+        top: 50px;
+    }
+    .about-me .text
+    {
+        font-size: 20px;
+    }
 }

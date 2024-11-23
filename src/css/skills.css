@@ -115,3 +115,34 @@
     font-size: 20px;
     color: var(--grey);
 }
+@media (max-width: 1250px)
+{
+    .skills .decorations .dots-middle
+    {
+        left: 250px;
+        top: 130px;
+    }
+    .skills .decorations .div-right
+    {
+        left: 200px;
+    }
+    .skills .decorations .logo
+    {
+        width: 160px;
+        height: 160px;
+        left: 0px;
+        top: 150px;
+    }
+    .skills .decorations .dots-top
+    {
+        left: -20px;
+        top: 0;
+    }
+    .skills .decorations .div-top
+    {
+        width: 50px;
+        height: 50px;
+        right: 40px;
+        top: 70px;
+    }
+}
