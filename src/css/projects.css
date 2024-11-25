@@ -103,12 +103,14 @@
     gap: 8.5px;
     flex-wrap: wrap;
 }
-.projects .content .item .content .buttons div
+.projects .content .item .content .buttons a, .projects .content .item .content .buttons div
 {
     cursor: pointer;
+    display: block;
     padding: 8px 16px;
+    text-decoration: none;
 }
-.projects .content .item .content .buttons div:hover
+.projects .content .item .content .buttons a:hover, .projects .content .item .content .buttons div:hover
 {
     background-color: #c778dd34;
 }
@@ -118,7 +120,6 @@
 }
 .projects .content .item .content .buttons .live::before
 {
-    content: "Live <~>";
     font-size: 16px;
     color: var(--white);
 }
