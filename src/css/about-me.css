@@ -95,6 +95,12 @@
     left: 360px;
     z-index: 20;
 }
+@media (max-width: 1600px) and (min-width: 1400px) {
+    .about-me .dots-left
+    {
+        left: 400px !important;
+    }
+}
 @media (max-width: 1400px) {
     .about-me
     {
