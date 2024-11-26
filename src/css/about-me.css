@@ -95,7 +95,7 @@
     left: 360px;
     z-index: 20;
 }
-@media (max-width: 1600px) {
+@media (max-width: 1400px) {
     .about-me
     {
         padding-top: 90px;

@@ -60,13 +60,14 @@
 .quote .decoration
 {
     position: absolute;
-    width: 130px;
+    width: 110px;
     height: 130px;
     border: 1px solid var(--grey);
-    right: -30px;
+    border-right: 0;
+    right: 0px;
     margin-top: 20px;
 }
-@media (max-width: 1250px)
+@media (max-width: 1400px)
 {
     .quote
     {

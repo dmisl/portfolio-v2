@@ -30,7 +30,7 @@
 {
     fill: var(--white);
 }
-@media (max-width: 1250px)
+@media (max-width: 1400px)
 {
     .links
     {

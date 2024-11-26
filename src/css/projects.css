@@ -144,13 +144,14 @@
 .projects .decoration
 {
     position: absolute;
-    right: -118px;
+    right: 0;
     margin-top: 200px;
-    width: 236px;
+    width: 100px;
     height: 236px;
     border: 1px solid var(--grey);
+    border-right: 0;
 }
-@media (max-width: 1250px)
+@media (max-width: 1400px)
 {
     .projects
     {
@@ -304,7 +305,7 @@
         border: 1px solid var(--grey);
     }
 }
-@media (max-width: 1250px)
+@media (max-width: 1400px)
 {
     .projects
     {
