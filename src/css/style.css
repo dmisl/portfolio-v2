@@ -28,7 +28,6 @@ body
 {
     background-color: var(--bg-color);
     width: 100%;
-    overflow-x: hidden;
 }
 /* OUR MAIN CONTAINER */
 .container
@@ -71,12 +70,8 @@ body
         background-color: #c778dd34;
     }
 }
-@media (max-width: 1000px)
+@media (max-width: 500px)
 {
-    body
-    {
-        overflow-x: hidden;
-    }
     .container
     {
         width: 320px;

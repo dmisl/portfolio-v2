@@ -1,11 +1,11 @@
-document.body.setAttribute('hidden', '')
-let normalWidth = window.innerWidth 
-document.body.style.width = normalWidth+'px'
-document.body.removeAttribute('hidden')
-document.body.style.overflowX = 'hidden'
-document.addEventListener('touchmove', (event) => {
-    console.log(event.touches[0].pageX)
-    if (event.touches[0].pageX !== 0) {
-      event.preventDefault(); // Prevent horizontal swiping
-    }
-}, { passive: false });
+const element = document.querySelector('body');
+
+const rect = element.getBoundingClientRect();
+
+let maxWidth = rect.width+'px'
+
+let hero = document.querySelector('.hero')
+hero.style.width = maxWidth
+hero.style.overflow = 'hidden'
+
+console.log('Width:', rect.width);
