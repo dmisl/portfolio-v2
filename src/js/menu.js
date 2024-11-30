@@ -24,23 +24,26 @@ function getCenteredSection() {
 }
 
 // Log the centered section on scroll
-window.addEventListener('scroll', () => {
-    const centeredSection = getCenteredSection();
-    let menuElements = document.querySelectorAll('.hero-menu, .projects-menu, .about-me-menu, .contacts-menu')
-    menuElements.forEach(element => {
-         element.classList.remove('selected')
+if(window.innerWidth > 1000)
+{
+    window.addEventListener('scroll', () => {
+        const centeredSection = getCenteredSection();
+        let menuElements = document.querySelectorAll('.hero-menu, .projects-menu, .about-me-menu, .contacts-menu')
+        menuElements.forEach(element => {
+             element.classList.remove('selected')
+        });
+        if(centeredSection.classList[0] == 'hero')
+        {
+            document.querySelector('.hero-menu').classList.add('selected')
+        } else if(centeredSection.classList[0] == 'projects')
+        {
+            document.querySelector('.projects-menu').classList.add('selected')
+        } else if(centeredSection.classList[0] == 'skills' || centeredSection.classList[0] == 'about-me')
+        {
+            document.querySelector('.about-me-menu').classList.add('selected')
+        } else
+        {
+            document.querySelector('.contacts-menu').classList.add('selected')
+        }
     });
-    if(centeredSection.classList[0] == 'hero')
-    {
-        document.querySelector('.hero-menu').classList.add('selected')
-    } else if(centeredSection.classList[0] == 'projects')
-    {
-        document.querySelector('.projects-menu').classList.add('selected')
-    } else if(centeredSection.classList[0] == 'skills' || centeredSection.classList[0] == 'about-me')
-    {
-        document.querySelector('.about-me-menu').classList.add('selected')
-    } else
-    {
-        document.querySelector('.contacts-menu').classList.add('selected')
-    }
-});
+}
