@@ -294,9 +294,10 @@
     }
     .hero .right .status
     {
-        width: 280px;
+        width: 290px;
         height: 32px;
         gap: 7px;
+        right: 24px;
     }
     .hero .right .status div
     {
@@ -305,7 +306,7 @@
     }
     .hero .right .status h4
     {
-        font-size: 13px;
+        font-size: 14px;
     }
     .hero .right .bg-logo
     {

@@ -71,3 +71,10 @@
         font-size: 24px;
     }
 }
+@media (max-width: 1000px)
+{
+    .menu .elements
+    {
+        display: none;
+    }
+}
