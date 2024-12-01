@@ -1,5 +1,6 @@
 function phone_check()
 {
+  // PROJECTS MANAGEMENT
   let columns = document.querySelectorAll('.column')
   columns.forEach(column => {
     column.style.cssText = ``
@@ -7,6 +8,9 @@ function phone_check()
       item.style.cssText = ``
     })
   });
+  // ABOUT ME TEXT
+  let text = document.querySelector('.about-me .text')
+  text.innerHTML = `Hello, i’m <span>dmisl</span>!<br><br>I’m a self-taught full-stack developer<br>based in <span>Warsaw, Poland</span>. I can develop<br>responsive websites from scratch and<br>raise them into modern user-friendly<br>web experiences.<br><br>Transforming my creativity and<br>knowledge into a websites has been my<br>passion for years. I have been<br>helping various clients to establish<br>their presence online. I always strive<br>to learn about the newest technologies<br>and frameworks.`
 }
 if(window.screen.width <= 1000)
 {

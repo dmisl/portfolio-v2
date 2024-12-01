@@ -318,6 +318,10 @@
 }
 @media (max-width: 1000px)
 {
+    .projects
+    {
+        padding-top: 30px;
+    }
     .projects .title
     {
         justify-content: space-between;

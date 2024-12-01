@@ -46,6 +46,14 @@
 {
     margin-top: 40px;
 }
+.about-me .contact-parent
+{
+    display: flex;
+}
+.about-me .contact-parent img
+{
+    display: none;
+}
 .about-me .image
 {
     text-align: right;
@@ -154,5 +162,60 @@
     .about-me .text
     {
         font-size: 20px;
+    }
+}
+@media (max-width: 1000px)
+{
+    .about-me
+    {
+        width: 100%;
+        padding-top: 50px;
+    }
+    .about-me .line
+    {
+        width: auto;
+        flex-grow: 1;
+    }
+    .about-me .decoration
+    {
+        display: none;
+    }
+    .about-me .text
+    {
+        font-size: 14px;
+        letter-spacing: 0;
+        position: relative;
+        width: auto;
+        height: auto;
+    }
+    .about-me svg, .about-me img, .about-me .image .underline
+    {
+        display: none;
+    }
+    .about-me .contact
+    {
+        height: 34px;
+        width: 140px;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .about-me .contact-parent
+    {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        height: 86px;
+        width: 100%;
+        left: 0;
+    }
+    .about-me .contact-parent button
+    {
+        display: none;
+    }
+    .about-me .contact-parent img
+    {
+        display: block;
+        width: 100%;
+        object-fit: contain;
     }
 }
