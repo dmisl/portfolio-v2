@@ -268,7 +268,7 @@
     .hero .contact-parent
     {
         position: absolute;
-        margin-top: 30px;
+        height: 86px;
         width: 100%;
         left: 0;
     }
@@ -280,7 +280,7 @@
     {
         display: block;
         width: 100%;
-
+        object-fit: contain;
     }
     .hero .right
     {

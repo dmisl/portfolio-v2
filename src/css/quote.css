@@ -82,3 +82,44 @@
         border-right: 0px;
     }
 }
+@media (max-width: 1000px)
+{
+    .quote
+    {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .quote .content
+    {
+        height: 34px;
+    }
+    .quote .content h3
+    {
+        font-size: 11px;
+    }
+    .quote .content .quote-start
+    {
+        width: 25px;
+        height: 15px;
+        top: -10px;
+    }
+    .quote .content .quote-end
+    {
+        width: 25px;
+        height: 15px;
+        bottom: -7px;
+    }
+    .quote .author
+    {
+        height: 25px;
+        width: 78px;
+    }
+    .quote .author h4
+    {
+        font-size: 12px;
+    }
+    .quote .decoration
+    {
+        display: none;
+    }
+}
