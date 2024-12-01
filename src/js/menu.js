@@ -24,26 +24,29 @@ function getCenteredSection() {
 }
 
 // Log the centered section on scroll
-if(window.innerWidth > 1000)
-{
-    window.addEventListener('scroll', () => {
-        const centeredSection = getCenteredSection();
-        let menuElements = document.querySelectorAll('.hero-menu, .projects-menu, .about-me-menu, .contacts-menu')
-        menuElements.forEach(element => {
-             element.classList.remove('selected')
-        });
-        if(centeredSection.classList[0] == 'hero')
-        {
-            document.querySelector('.hero-menu').classList.add('selected')
-        } else if(centeredSection.classList[0] == 'projects')
-        {
-            document.querySelector('.projects-menu').classList.add('selected')
-        } else if(centeredSection.classList[0] == 'skills' || centeredSection.classList[0] == 'about-me')
-        {
-            document.querySelector('.about-me-menu').classList.add('selected')
-        } else
-        {
-            document.querySelector('.contacts-menu').classList.add('selected')
-        }
+window.addEventListener('scroll', () => {
+    const centeredSection = getCenteredSection();
+    console.log(centeredSection)
+    let menuElements = document.querySelectorAll('.hero-menu, .projects-menu, .about-me-menu, .contacts-menu, .burger_content .hero-menu, .burger_content .projects-menu, .burger_content .about-me-menu, .burger_content .contacts-menu')
+    console.log(123)
+    menuElements.forEach(element => {
+            element.classList.remove('selected')
     });
-}
+    if(centeredSection.classList[0] == 'hero')
+    {
+        document.querySelector('.hero-menu').classList.add('selected')
+        document.querySelector('.burger_content .hero-menu').classList.add('selected')
+    } else if(centeredSection.classList[0] == 'projects')
+    {
+        document.querySelector('.projects-menu').classList.add('selected')
+        document.querySelector('.burger_content .projects-menu').classList.add('selected')
+    } else if(centeredSection.classList[0] == 'skills' || centeredSection.classList[0] == 'about-me')
+    {
+        document.querySelector('.about-me-menu').classList.add('selected')
+        document.querySelector('.burger_content .about-me-menu').classList.add('selected')
+    } else
+    {
+        document.querySelector('.contacts-menu').classList.add('selected')
+        document.querySelector('.burger_content .contacts-menu').classList.add('selected')
+    }
+});

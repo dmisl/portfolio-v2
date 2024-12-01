@@ -62,3 +62,9 @@ window.addEventListener('resize', function () {
     burger_button.style.top = '5px'
     burger_button.addEventListener('click', open_burger)
   }
+
+// MENU SWITCHING
+let menu_items = document.querySelectorAll('.burger_content a')
+menu_items.forEach(menu_item => {
+  menu_item.addEventListener('click', close_burger)
+});

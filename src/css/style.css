@@ -50,6 +50,10 @@ body
 {
     background-color: #c778dd34;
 }
+.contact-parent
+{
+    text-decoration: none;
+}
 @media (max-width: 1400px)
 {
     .container
