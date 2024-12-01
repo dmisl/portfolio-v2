@@ -19,6 +19,14 @@
     display: flex;
     gap: 11px;
 }
+.menu .burget_button
+{
+    display: none;
+}
+.menu .burger_content
+{
+    display: none;
+}
 .menu .logo h1
 {
     font-size: 32px;
@@ -73,8 +81,86 @@
 }
 @media (max-width: 1000px)
 {
+    .menu
+    {
+        height: 32px;
+        padding: 15px 0;
+        overflow: hidden;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+    }
     .menu .elements
     {
         display: none;
+    }
+    .menu .logo
+    {
+        gap: 8px;
+    }
+    .menu .logo svg
+    {
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .menu .logo h1
+    {
+        font-size: 24px;
+    }
+    .menu .burger_button
+    {
+        display: block;
+        position: relative;
+        top: 5px;
+    }
+    .menu .burger_content
+    {
+        display: block;
+        flex-grow: 1;
+    }
+    .menu .burger_content .container
+    {
+        display: block;
+        position: relative;
+        height: 100%;
+    }
+    .menu .burger_content .items
+    {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 15px;
+    }
+    .menu .burger_content .items a
+    {
+        font-size: 30px;
+        color: var(--grey);
+        text-decoration: none;
+    }
+    .menu .burger_content .items a.selected
+    {
+        color: var(--white);
+    }
+    .menu .burger_content .items a::before
+    {
+        content: '#';
+        color: var(--pink);
+    }
+    .menu .links
+    {
+        width: 100%;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        bottom: 50px;
+        gap: 30px;
+        justify-content: center;
+    }
+    .menu .links svg
+    {
+        width: 45px;
+        height: 45px;
     }
 }
