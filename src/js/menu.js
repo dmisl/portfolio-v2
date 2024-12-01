@@ -26,9 +26,7 @@ function getCenteredSection() {
 // Log the centered section on scroll
 window.addEventListener('scroll', () => {
     const centeredSection = getCenteredSection();
-    console.log(centeredSection)
     let menuElements = document.querySelectorAll('.hero-menu, .projects-menu, .about-me-menu, .contacts-menu, .burger_content .hero-menu, .burger_content .projects-menu, .burger_content .about-me-menu, .burger_content .contacts-menu')
-    console.log(123)
     menuElements.forEach(element => {
             element.classList.remove('selected')
     });
