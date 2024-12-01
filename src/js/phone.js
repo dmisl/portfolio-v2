@@ -74,7 +74,7 @@ burger_button.addEventListener('click', open_burger)
 function open_burger()
 {
   let menu = document.querySelector('.menu')
-  menu.style.animation = 'take_all 2s forwards'
+  menu.style.animation = 'take_all 1s forwards'
   burger_button.removeEventListener('click', open_burger)
   burger_button.innerHTML = `
     <rect x="2.65338" y="28.7692" width="37.8574" height="3.15478" transform="rotate(-45 2.65338 28.7692)" fill="white"/>
@@ -88,7 +88,7 @@ function open_burger()
 function close_burger()
 {
   let menu = document.querySelector('.menu')
-  menu.style.animation = 'take_all 2s forwards'
+  menu.style.animation = 'get_back 1s forwards'
   burger_button.removeEventListener('click', close_burger)
   burger_button.innerHTML = `
     <rect width="32" height="3" fill="white"/>
