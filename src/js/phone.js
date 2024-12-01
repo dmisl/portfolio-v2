@@ -1,29 +1,5 @@
 function phone_check()
 {
-  // GIVING WIDTH FOR ELEMENTS ON LOAD
-  if(window.innerWidth <= 500)
-  {
-    window.addEventListener('load', function () {
-      const element = document.querySelector('body');
-      
-      let maxWidth = window.screen.width+'px'
-      
-      let hero = document.querySelector('.hero')
-      // hero.style.width = maxWidth
-      hero.style.overflow = 'hidden'
-    })
-  }
-  // CONTAINER MANAGING
-  let maxWidth = window.screen.width+'px'
-  let containers = document.querySelectorAll('.container')
-  let marginLeft = (window.screen.width-320)/2-4+'px'
-  containers.forEach(containerr => {
-    containerr.style.marginLeft = marginLeft
-  });
-  // MENU MANAGING
-  let menu = document.querySelector('.menu')
-  document.body.style.width = maxWidth
-  menu.style.width = `${maxWidth}`
   // ANIMATION MANAGING
   console.log('animation managing')
   let style = document.styleSheets[0]
