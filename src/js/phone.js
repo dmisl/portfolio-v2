@@ -1,33 +1,31 @@
 function phone_check()
 {
   // ANIMATION MANAGING
-  console.log('animation managing')
   let style = document.styleSheets[0]
 
-  if (style.cssRules) {
-    console.log(style.cssRules)
+  // if (style.cssRules) {
 
-    for (let i = 0; i < style.cssRules.length; i++) {
-      if (style.cssRules[i] instanceof CSSKeyframesRule) {
-        const keyframesRule = style.cssRules[i];
+  //   for (let i = 0; i < style.cssRules.length; i++) {
+  //     if (style.cssRules[i] instanceof CSSKeyframesRule) {
+  //       const keyframesRule = style.cssRules[i];
 
-        if (keyframesRule.name === 'take_all') {
-          for (let j = 0; j < keyframesRule.cssRules.length; j++) {
-            if (keyframesRule.cssRules[j].keyText === '100%') {
-              keyframesRule.cssRules[j].style.height = `${window.screen.height}px`;
-            }
-          }
-        } else if (keyframesRule.name === 'get_back')
-        {
-          for (let j = 0; j < keyframesRule.cssRules.length; j++) {
-            if (keyframesRule.cssRules[j].keyText === '0%') {
-              keyframesRule.cssRules[j].style.height = `${window.screen.height}px`;
-            }
-          }
-        }
-      }
-    }
-  }
+  //       if (keyframesRule.name === 'take_all') {
+  //         for (let j = 0; j < keyframesRule.cssRules.length; j++) {
+  //           if (keyframesRule.cssRules[j].keyText === '100%') {
+  //             keyframesRule.cssRules[j].style.height = `${window.screen.height}px`;
+  //           }
+  //         }
+  //       } else if (keyframesRule.name === 'get_back')
+  //       {
+  //         for (let j = 0; j < keyframesRule.cssRules.length; j++) {
+  //           if (keyframesRule.cssRules[j].keyText === '0%') {
+  //             keyframesRule.cssRules[j].style.height = `${window.screen.height}px`;
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
 
 }
 if(window.screen.width <= 1000)
