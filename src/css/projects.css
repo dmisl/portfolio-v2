@@ -129,7 +129,6 @@
 }
 .projects .content .item .content .buttons .cached::before
 {
-    content: "Cached >=";
     font-size: 16px;
     color: var(--grey);
 }
@@ -273,7 +272,6 @@
     }
     .projects .content .item .content .buttons .live::before
     {
-        content: "Live <~>";
         font-size: 16px;
         color: var(--white);
     }
@@ -283,7 +281,6 @@
     }
     .projects .content .item .content .buttons .cached::before
     {
-        content: "Cached >=";
         font-size: 16px;
         color: var(--grey);
     }
@@ -317,5 +314,51 @@
         right: 0;
         width: 60px;
         border-right: 0;
+    }
+}
+@media (max-width: 1000px)
+{
+    .projects .title
+    {
+        justify-content: space-between;
+    }
+    .projects .title h2
+    {
+        font-size: 30px;
+    }
+    .projects .title .line
+    {
+        width: 50px;
+        margin: 0;
+    }
+    .projects .title a
+    {
+        font-size: 13px;
+        text-decoration: underline;
+    }
+    .projects .view
+    {
+        flex-grow: 0;
+    }
+    .projects .content
+    {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .projects .decoration
+    {
+        display: none;
+    }
+    .projects .dots
+    {
+        display: none;
+    }
+    .projects .content
+    {
+        margin-top: 30px;
+    }
+    .projects .content .item
+    {
+        width: 100%;
     }
 }
