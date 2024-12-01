@@ -19,13 +19,9 @@
 {
     display: flex;
 }
-.hero .contact-parent button
+.hero .contact-parent img
 {
     display: none;
-}
-.hero .contact-parent:nth-child(1)
-{
-    display: block;
 }
 .hero .name span
 {
@@ -273,12 +269,18 @@
     {
         position: absolute;
         margin-top: 30px;
-        text-decoration: none;
-        left: -80px;
+        width: 100%;
+        left: 0;
     }
     .hero .contact-parent button
     {
+        display: none;
+    }
+    .hero .contact-parent img
+    {
         display: block;
+        width: 100%;
+
     }
     .hero .right
     {

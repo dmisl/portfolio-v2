@@ -9,7 +9,7 @@ function phone_check()
       let maxWidth = window.screen.width+'px'
       
       let hero = document.querySelector('.hero')
-      hero.style.width = maxWidth
+      // hero.style.width = maxWidth
       hero.style.overflow = 'hidden'
     })
   }
