@@ -26,6 +26,9 @@ window.addEventListener('resize', function () {
     if(window.screen.width <= 1000)
     {
       phone_check()
+    } else
+    {
+      document.querySelector('.contacts .text').innerHTML = `I’m open both full-time roles and freelance collaborations. <br><br><span>// I’m always excited to take on new challenges. <br>// If you want to discuss something, don’t hesitate to reach out. <br> // I look forward to the opportunity to create something amazing together!</span>`
     }
   }, 500);
 })
