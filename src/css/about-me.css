@@ -219,3 +219,10 @@
         object-fit: contain;
     }
 }
+@media (max-width: 1150px) and (min-width: 1000px)
+{
+    .about-me .decoration, .about-me .image .dots-left
+    {
+        display: none !important;
+    }
+}
