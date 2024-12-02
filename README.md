@@ -20,6 +20,8 @@
 - Skills
 - About me
 - Contacts
+- Phones
+- Tablets
 
 [Realization]
 - Menu ✅
