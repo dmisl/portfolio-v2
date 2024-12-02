@@ -146,7 +146,7 @@
         top: 70px;
     }
 }
-@media (max-width: 1000px)
+@media (max-width: 500px)
 {
     .skills .content .decorations
     {
@@ -185,6 +185,79 @@
     .skills .main .column .item .content
     {
         padding: 5px 11px 7px 11px; 
+    }
+    .skills .main .column .item .content p
+    {
+        font-size: 16px;
+    }
+}
+@media (max-width: 1000px) and (min-width: 500px)
+{
+    .skills
+    {
+        width: 100%;
+        overflow: hidden;
+    }
+    .skills .line
+    {
+        width: 400px;
+    }
+    .skills .decorations
+    {
+        left: 0;
+        margin-top: 0;
+    }
+    .skills .decorations .dots-top
+    {
+        width: 76px;
+        height: 76px;
+        top: 66px;
+        left: 0;
+    }
+    .skills .decorations .dots-middle
+    {
+        width: 41px;
+        height: 41px;
+        left: 156px;
+        top: 172px;
+    }
+    .skills .decorations .div-top
+    {
+        display: none;
+    }
+    .skills .decorations .div-right
+    {
+        height: 51px;
+        width: 51px;
+        top: 210px;
+        left: 235px;
+    }
+    .skills .decorations .logo
+    {
+        width: 85px;
+        height: 85px;
+        left: 23px;
+        top: 185px;
+    }
+    .skills .main
+    {
+        gap: 20px;
+    }
+    .skills .main .column
+    {
+        gap: 20px;
+    }
+    .skills .main .column .item
+    {
+        width: 200px;
+    }
+    .skills .main .column:nth-child(1) .item
+    {
+        width: 180px;
+    }
+    .skills .main .column .item .title p
+    {
+        font-size: 16px;
     }
     .skills .main .column .item .content p
     {
