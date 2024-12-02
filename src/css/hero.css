@@ -417,4 +417,8 @@
         left: -10px;
         top: 85px;
     }
+    .hero .name span
+    {
+        letter-spacing: 5px;
+    }
 }

@@ -316,7 +316,7 @@
         border-right: 0;
     }
 }
-@media (max-width: 1000px)
+@media (max-width: 500px)
 {
     .projects
     {
@@ -371,5 +371,68 @@
     .projects .dots, .projects .decoration
     {
         display: none;
+    }
+}
+@media (max-width: 1000px) and (min-width: 500px)
+{
+    .projects .title h2
+    {
+        font-size: 31px;
+    }
+    .projects .line
+    {
+        width: 380px;
+    }
+    .projects .content
+    {
+        margin-top: 20px;
+    }
+    .projects .content .item
+    {
+        width: 245px;
+    }
+    .projects .content .item img
+    {
+        height: 160px;
+    }
+    .projects .content .item .tech-stack
+    {
+        padding: 9px 5px 13px 12px;
+        gap: 9px 6px;
+    }
+    .projects .content .item .tech-stack p
+    {
+        font-size: 13px;
+    }
+    .projects .content .item .content
+    {
+        padding: 9px 0 25px 12px;
+    }
+    .projects .content .item .content .title
+    {
+        font-size: 28px;
+    }
+    .projects .content .item .content .desc
+    {
+        font-size: 12px;
+        white-space: normal;
+    }
+    .projects .content .item .content .buttons div, .projects .content .item .content .buttons a
+    {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    .projects .dots
+    {
+        width: 95px;
+        height: 95px;
+        left: -40px;
+        margin-top: 200px;
+    }
+    .projects .decoration
+    {
+        width: 50px;
+        height: 200px;
+        margin-top: 150px;
     }
 }

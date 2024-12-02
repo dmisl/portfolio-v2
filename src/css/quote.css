@@ -146,4 +146,9 @@
     {
         font-size: 21px;
     }
+    .quote .decoration
+    {
+        height: 90px;
+        margin-top: 10px;
+    }
 }

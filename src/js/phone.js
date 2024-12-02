@@ -19,6 +19,19 @@ if(window.screen.width <= 1000)
 {
   phone_check()
 }
+function tablet_check()
+{
+  let link_width = (window.screen.width-750)/2
+  document.querySelectorAll('.links')[1].style.cssText = `width: ${link_width}px;`
+}
+if(window.screen.width <= 1000 && window.screen.width > 500)
+{
+  tablet_check()
+  document.querySelector('.projects .content .item .content .desc').innerHTML = `Educational management for<br>schools`
+} else
+{
+  document.querySelector('.projects .content .item .content .desc').innerHTML = `Educational management for schools`
+}
 let phoneTimeout
 window.addEventListener('resize', function () {
   clearTimeout(phoneTimeout)
@@ -31,6 +44,15 @@ window.addEventListener('resize', function () {
       document.querySelector('.contacts .text').innerHTML = `I’m open both full-time roles and freelance collaborations. <br><br><span>// I’m always excited to take on new challenges. <br>// If you want to discuss something, don’t hesitate to reach out. <br> // I look forward to the opportunity to create something amazing together!</span>`
     }
   }, 500);
+  if(window.screen.width <= 1000 && window.screen.width > 500)
+  {
+    tablet_check()
+    document.querySelector('.projects .content .item .content .desc').innerHTML = `Educational management for<br>schools`
+  } else
+  {
+    document.querySelectorAll('.links')[1].style.cssText = ``
+    document.querySelector('.projects .content .item .content .desc').innerHTML = `Educational management for schools`
+  }
 })
 
 // BURGER MENU OPENING
