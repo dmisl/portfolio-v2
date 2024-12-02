@@ -82,7 +82,7 @@
         border-right: 0px;
     }
 }
-@media (max-width: 1000px)
+@media (max-width: 500px)
 {
     .quote
     {
@@ -121,5 +121,29 @@
     .quote .decoration
     {
         display: none;
+    }
+}
+@media (max-width: 1000px) and (min-width: 500px)
+{
+    .quote
+    {
+        width: 600px;
+        margin-top: 60px;
+    }
+    .quote .content
+    {
+        height: 60px;
+    }
+    .quote .content h3
+    {
+        font-size: 19px;
+    }
+    .quote .author
+    {
+        height: 50px;
+    }
+    .quote .author h4
+    {
+        font-size: 21px;
     }
 }
