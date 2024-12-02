@@ -81,5 +81,12 @@ body
         width: 320px;
         margin: 0 auto;
     }
-    
+}
+@media (max-width: 1000px) and (min-width: 500px)
+{
+    .container
+    {
+        width: 750px;
+        margin: 0 auto;
+    }
 }

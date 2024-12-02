@@ -79,7 +79,7 @@
         font-size: 24px;
     }
 }
-@media (max-width: 1000px)
+@media (max-width: 500px)
 {
     .menu
     {
@@ -162,5 +162,17 @@
     {
         width: 45px;
         height: 45px;
+    }
+}
+@media (max-width: 1000px) and (min-width: 500px)
+{
+    .menu .elements
+    {
+        gap: 34px;
+        height: 37px;
+    }
+    .menu .elements a
+    {
+        font-size: 20px;
     }
 }

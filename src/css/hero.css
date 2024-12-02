@@ -333,3 +333,88 @@
         margin-top: 0;
     }
 }
+@media (max-width: 1000px) and (min-width: 500px)
+{
+    .hero
+    {
+        padding-top: 90px;
+    }
+    .hero .left
+    {
+        margin-top: 40px;
+        width: 370px;
+    }
+    .hero .greet
+    {
+        font-size: 20px;
+    }
+    .hero .name
+    {
+        font-size: 49px;
+        white-space: nowrap;
+        position: relative;
+        left: -2px;
+        top: -1px;
+    }
+    .hero .typing
+    {
+        font-size: 28px;
+    }
+    .hero .comment
+    {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .hero .right
+    {
+        flex-grow: 1;
+    }
+    .hero .right img
+    {
+        width: 370px;
+        height: 340px;
+        right: 0;
+    }
+    .hero .right .status
+    {
+        width: 336px;
+        height: 35px;
+        right: 27px;
+        gap: 7px;
+    }
+    .hero .right .status h4
+    {
+        font-size: 14px;
+        position: relative;
+        top: 0.5px;
+    }
+    .hero .right .status div
+    {
+        width: 16px;
+        height: 16px;
+    }
+    .hero .contact
+    {
+        margin-top: 27px;
+    }
+    .hero .right .dots
+    {
+        width: 72px;
+        height: 72px;
+        top: 240px;
+        right: 35px;
+    }
+    .hero .right .bg-logo
+    {
+        display: none;
+    }
+    .hero .right .bg-logo-mobile
+    {
+        display: block;
+        position: absolute;
+        width: 127px;
+        height: 127px;
+        left: -10px;
+        top: 85px;
+    }
+}
