@@ -53,14 +53,14 @@
         display: none;
     }
 }
-@media (max-width: 450px)
+@media (max-width: 750px)
 {
     .links
     {
         display: none;
     }
 }
-@media (max-width: 1000px) and (min-width: 500px)
+@media (max-width: 1000px) and (min-width: 750px)
 {
     .links
     {

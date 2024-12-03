@@ -225,7 +225,7 @@
         color: var(--white);   
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 750px) {
     .hero
     {
         display: flex;
@@ -333,7 +333,7 @@
         margin-top: 0;
     }
 }
-@media (max-width: 1000px) and (min-width: 500px)
+@media (max-width: 1000px) and (min-width: 750px)
 {
     .hero
     {

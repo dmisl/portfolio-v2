@@ -74,7 +74,7 @@ body
         background-color: #c778dd34;
     }
 }
-@media (max-width: 500px)
+@media (max-width: 750px)
 {
     .container
     {
@@ -82,7 +82,7 @@ body
         margin: 0 auto;
     }
 }
-@media (max-width: 1000px) and (min-width: 500px)
+@media (max-width: 1000px) and (min-width: 750px)
 {
     .container
     {
