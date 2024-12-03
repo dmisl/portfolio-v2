@@ -86,6 +86,9 @@ window.addEventListener('resize', function () {
     burger_button.attributes.viewBox.value = "0 0 32 12"
     burger_button.style.top = '5px'
     burger_button.addEventListener('click', open_burger)
+    setTimeout(() => {
+      menu.style.animation = ""
+    }, 1000);
   }
 
 // MENU SWITCHING
