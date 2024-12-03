@@ -244,9 +244,32 @@
     {
         margin-top: 20px;
     }
-    .about-me .image .dots-top, .about-me .image .dots-left, .about-me .image .dots-bottom, .about-me .underline
+    .about-me .image .dots-top
     {
-        display: none;
+        width: 66px;
+        height: 66px;
+        left: 530px;
+        top: 130px;
+    }
+    .about-me .image .dots-left
+    {
+        width: 66px;
+        height: 66px;
+        left: 730px;
+        top: 200px;
+    }
+    .about-me .image .dots-bottom
+    {
+        width: 82px;
+        height: 45px;
+        left: 570px;
+        top: 380px;
+    }
+    .about-me .image .underline
+    {
+        width: 260px;
+        top: 44px;
+        left: 451px;
     }
     .about-me .image img
     {
