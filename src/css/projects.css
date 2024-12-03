@@ -436,3 +436,10 @@
         margin-top: 150px;
     }
 }
+@media (max-width: 865px) and (min-width: 750px)
+{
+    .projects .dots, .projects .decoration
+    {
+        display: none;
+    }
+}
