@@ -131,11 +131,28 @@
 }
 @media (max-width: 1000px) and (min-width: 500px)
 {
+    .contacts
+    {
+        padding-bottom: 85px;
+    }
     .contacts .decoration
     {
         width: 90px;
         height: 90px;
         left: -20px;
         margin-top: 70px;
+    }
+    .contacts .content .text
+    {
+        margin-top: 25px;
+        font-size: 16px;
+    }
+    .contacts .content .text span
+    {
+        font-size: 14px;
+    }
+    .contacts .content .contact-box
+    {
+        margin-top: 25px;
     }
 }
