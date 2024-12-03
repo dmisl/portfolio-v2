@@ -92,7 +92,7 @@
     left: 0;
     margin-top: 10px;
 }
-@media (max-width: 1000px)
+@media (max-width: 500px)
 {
     .contacts
     {
@@ -127,5 +127,15 @@
     .contacts .decoration
     {
         display: none;
+    }
+}
+@media (max-width: 1000px) and (min-width: 500px)
+{
+    .contacts .decoration
+    {
+        width: 90px;
+        height: 90px;
+        left: -20px;
+        margin-top: 70px;
     }
 }

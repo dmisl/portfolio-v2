@@ -1,7 +1,5 @@
 function check()
 {
-    console.log('checking')
-    console.log(window.screen.width <= 1250 && window.screen.width > 500)
     if(window.screen.width <= 1250 && window.screen.width > 500)
     {
         document.querySelector('.about-me .text').innerHTML = `Hello, i’m <span>dmisl</span>!<br><br>I’m a self-taught full-stack developer based in <br><span>Warsaw, Poland</span>. I can develop responsive websites<br>from scratch and raise them into modern user-friendly<br>web experiences.<br><br>Transforming my creativity and knowledge into a websites has been my passion for years. I have been helping various clients to establish <br>their presence online. I always strive to learn about the newest technologies and frameworks.`
@@ -11,8 +9,4 @@ function check()
     }
 }
 window.addEventListener('load', check)
-let small_laptopTimeout
-window.addEventListener('resize', function () {
-    clearTimeout(small_laptopTimeout)
-    small_laptopTimeout = setTimeout(check, 500);
-});
+window.addEventListener('resize', check);

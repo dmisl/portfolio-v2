@@ -15,7 +15,7 @@ function phone_check()
   text = document.querySelector('.contacts .text')
   text.innerHTML = `I’m open both full-time roles and<br>freelance collaborations. <br><br><span>// I’m always excited to take on new<br>challenges. <br>// If you want to discuss something,<br>don’t hesitate to reach out. <br> // I look forward to the opportunity to<br>create something amazing together!</span>`
 }
-if(window.screen.width <= 1000)
+if(window.screen.width <= 500)
 {
   phone_check()
 }
@@ -36,7 +36,7 @@ let phoneTimeout
 window.addEventListener('resize', function () {
   clearTimeout(phoneTimeout)
   phoneTimeout = setTimeout(() => {
-    if(window.screen.width <= 1000)
+    if(window.screen.width <= 500)
     {
       phone_check()
     } else

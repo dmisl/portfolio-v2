@@ -234,6 +234,25 @@
         height: 400px;
         margin-top: 50px;
         font-size: 15px;
-        line-height: 1.5;
+        line-height: 2.1;
+    }
+    .about-me .decoration
+    {
+        display: none;
+    }
+    .about-me .contact
+    {
+        margin-top: 20px;
+    }
+    .about-me .image .dots-top, .about-me .image .dots-left, .about-me .image .dots-bottom, .about-me .underline
+    {
+        display: none;
+    }
+    .about-me .image img
+    {
+        width: 300px;
+        height: 510px;
+        top: 50px;
+        left: 450px;
     }
 }
