@@ -228,6 +228,10 @@
 }
 @media (max-width: 1000px) and (min-width: 750px)
 {
+    .about-me
+    {
+        padding-top: 40px;
+    }
     .about-me .text
     {
         width: 526px;
@@ -277,5 +281,12 @@
         height: 510px;
         top: 50px;
         left: 450px;
+    }
+}
+@media (max-width: 850px) and (min-width: 750px)
+{
+    .about-me .image .dots-left
+    {
+        display: none;
     }
 }
